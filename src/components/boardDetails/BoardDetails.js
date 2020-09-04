@@ -57,7 +57,7 @@ const BoardDetails=(props)=>{
         <div className="heading" >{boardName}</div> 
            
         <Columns/>
-        <button id={styles.addColumn} onClick={()=>props.showModal()}>Add a Column</button>
+        <button id={styles.addColumn} onClick={()=>props.showModal()}>Add a column</button>
         </div>
         </>
         )
@@ -66,7 +66,7 @@ const BoardDetails=(props)=>{
          <div className={styles.boardName}>{boardName}</div> 
          <button className={styles.deleteBtn} onClick={()=>deleteBoardHandler()}>Delete Board</button>   
          <Columns/>
-         <button id={styles.addColumn} onClick={()=>props.showModal()}>Add a Column</button>
+         <button id={styles.addColumn} onClick={()=>props.showModal()}>Add a column</button>
          </div>
         )
 }
