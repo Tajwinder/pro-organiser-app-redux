@@ -1,0 +1,114 @@
+ /* .cardDetails{
+     width: 500px;
+     height: 400px;
+     position: relative;
+     bottom: 0px;
+ } */
+ .AddStockForm{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow:  hidden;
+    
+}
+.ModalContent{
+    width: 60%;
+    /* height: 45%; */
+    margin: 100px auto;
+    background-color: rgb(250, 249, 249);
+    position: relative;
+    padding:15px;
+    color: grey;
+   
+}
+#title{
+    font-size: 1.5em;
+    color:black;
+   
+}
+#subTitle{
+    /* font-size: em; */
+    color:grey;
+    clear: both;
+    
+}
+
+.heading{
+font-weight: 600;
+color: black;
+margin: 15px 0px 7px 0px;   
+
+    
+}
+.cardMember{
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 2px;
+    color: black;
+
+}
+.cardHeader{
+    float: left;
+
+}
+.btn{
+    float: right;
+   margin-top: 10px;
+   margin-left: 2px;
+    width: 80px;
+    height: 30px;
+    color:white;
+
+
+}
+#editBtn{
+    background-color: rgb(62, 62, 248);
+
+}
+#archiveBtn{
+    background-color: red;
+}
+/* .modalAttributes{
+    display: flex;
+ 
+    justify-content: space-between;
+    margin: 5px auto;
+}
+.ModalContent{
+    padding: 10px 50px;
+    text-align: center;
+}
+.content{
+    margin: 100px auto;
+}
+.inputBox{
+    width: 150px;
+} */
+
+#cancelBtn{
+    margin-right: 10px;
+   
+    padding: 2px 7px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -45px;
+    right: -200px;
+    color: red;
+    font-size: 1.3rem;
+
+}
+.AddButton{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+
+} 

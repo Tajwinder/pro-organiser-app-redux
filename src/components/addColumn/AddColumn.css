@@ -1,0 +1,33 @@
+.modalContainer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* overflow:  hidden; */
+    
+}
+.modalInnerContainer{
+    width: 60%;
+    /* height: 45%; */
+    height: max-content;
+    margin: 100px auto;
+    background-color: rgb(250, 249, 249);
+    position: relative;
+    padding:15px;
+    color: grey;
+   
+   overflow: hidden;
+}
+input{
+max-width: 100%;
+}
+#addBtn{
+    float:right;
+    margin-top: 15px;
+   
+}
+#CreateColumn{
+    margin-top: 15px;
+}
